@@ -1,0 +1,10 @@
+
+What I would differently if I were to build a full-scale web application is
+first think about the software architecture of application. I would have to at least configure
+a web server so users can access the web application. I would have a front end server
+to serve up the user interface and a backend surver to take of the business logic. With
+the front end portion of the web app, I would have to take into account pagination if the goal
+is to only show 10 results at a time. For the backend, I would set up an api to retrieve the data 
+and then pass it to the front end. The front end code would then take the data that is passed and display the contents.
+There is no data being stored in this application, therefore I wouldn't have to set up a database 
+but I would think about caching data in the browser just in case the users retrieve the information frequently.
